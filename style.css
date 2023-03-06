@@ -1,0 +1,165 @@
+.date{
+  font-family: 'Yantramanav', sans-serif;
+    text-align: center;
+   margin-top: 200px;
+}
+
+.btn{
+font-family: 'Yantramanav', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.btn2{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 20%;
+    
+}
+
+body {
+    background-image: url("http://www.reactiongifs.com/wp-content/uploads/2013/02/love1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-56 {
+    text-align: center;   
+    margin-top: 50px;
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #722F37;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #722F37;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-56:after {
+    background-color: #722F37;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-56:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .button-56:active {
+    background-color: #ffdeda;
+    outline: 0;
+  }
+  
+  .button-56:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-56 {
+      padding: 0 40px;
+    }
+  }
+  
+
+
+  .container {  
+    left: 39%;
+  top: 68%;
+  }
+  
+  .button-56 {
+    text-align: center;   
+    margin-top: 50px;
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #722F37;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #722F37;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-56--sola-cek {
+    margin-left: -350px; /* Sadece ikinci butonu 100px sola çekiyoruz */
+  }
+  
+  .button-56:after {
+    background-color: #722F37;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-56:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .button-56:active {
+    background-color: #ffdeda;
+    outline: 0;
+  }
+  
+  .button-56:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-56 {
+      padding: 0 40px;
+    }
+  }
+
+  .footer{
+    font-family: Impact;
+  }
+  
